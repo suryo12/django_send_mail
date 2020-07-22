@@ -25,9 +25,9 @@ python manage.py migrate
 EMAIL_HOST_USER = 'youremail@yourdomain.com'
 EMAIL_HOST_PASSWORD = 'yourpassword'
 ```
-5. Run the server by do
+6. Run the server by do
 ```
 python manage.py runserver
 ```
-6. Open your browser then go to localhost:8000
+7. Open your browser then go to localhost:8000
 
