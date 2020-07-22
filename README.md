@@ -18,6 +18,13 @@ pip install -r requirement.txt
 ```
 python manage.py migrate
 ```
+5. Input your email and password in
+```
+* django_email/setting.py
+* and find
+EMAIL_HOST_USER = 'youremail@yourdomain.com'
+EMAIL_HOST_PASSWORD = 'yourpassword'
+```
 5. Run the server by do
 ```
 python manage.py runserver
