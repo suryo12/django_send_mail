@@ -20,7 +20,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # See https://docs.djangoproject.com/en/3.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = '7evs&ept!+c&v_twcjvfoh+b+5)^97g)9@23!2@br+uv5(9p3#'
+SECRET_KEY = 'yoursecretkey'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -106,7 +106,7 @@ EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_USE_TLS = True
 EMAIL_PORT = 587                                # port that using by gmail for smtp you can use like 465 and etc
 EMAIL_HOST_USER = 'youremail@yourdomain.com'    # you can write your email inside here
-EMAIL_HOST_PASSWORD = 'suryofikri'              # you can write your email password
+EMAIL_HOST_PASSWORD = 'yourpassword'              # you can write your email password
 
 # Internationalization
 # https://docs.djangoproject.com/en/3.0/topics/i18n/
